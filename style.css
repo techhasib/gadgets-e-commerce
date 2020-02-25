@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    
+}
+.container{
+    margin-bottom: 50px;
+}
+
+.carousel-indicators li.active{
+    width: 45px;
+    height: 10px;
+    background-image: linear-gradient(142deg, #ff9c35 0%, #ffd019 100%);
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    background-color: #cecece;
+}
+
+
+/* Smartphone Section */
+.product-text a{
+    text-decoration: none;
+    color: #FF8319;
+    font-weight: 500;
+    font-size: 18px;
+}
+#smartphone .btn,
+#laptop .btn{
+    margin: 10px 0;
+}
+
+#smartphone .card,
+#laptop .card{
+    border: none;
+    box-shadow: 2px 2px 10px lightgray;
+}
+
+#smartphone .card, #laptop .card img{
+    padding: 30px;
+}
+.card img:hover{
+    width: 105%;
+    transition: 1s;
+}
+
+
+/* Laptop Section */
+#laptop{
+    padding-top: 50px
+}
+
+#laptop .card-title{
+    margin-top: -50px;
+}
+
+
+/* categories Section */
+#categories h2{
+    text-align: center;
+    border-bottom: 6px solid;
+    border-image: linear-gradient(#F47C00, #FF8319);
+    border-image-slice: 1;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+#categories{
+    padding: 100px 0;
+}
+
+.category-box{
+    box-shadow: 2px 2px 50px lightgray;
+}
+
+.bag{
+    height: 300px;
+    position: relative;
+    top: 150px;
+}
+.perfume, .shoe{
+    padding: 70px 0;
+    height: 300px;
+}
+
+.bag, .perfume, .shoe{
+    background: #fff;
+}
+
